@@ -1,0 +1,123 @@
+.leftBar2{
+    background-color: greenyellow;
+    width: 30%;
+    height: 100%;
+    border-top-right-radius: 3rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.titleMyrecipe{
+    position: relative;
+    width: 8rem;
+    height: 2rem;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 3;
+}
+.recipeBox{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 2rem 0 2rem 2rem;
+}
+.box2{
+    width: 80%;
+    height: 4rem;
+    background-color: greenyellow;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 10%;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.imgSide2{
+    width: 40%;
+    height: 8rem;
+    top: 0rem;
+    left: 0;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.textSide{
+    position: absolute;
+    left: 40%;
+    font-weight: bold;
+    height: 6rem;
+    width: 60%;
+    overflow: hidden;
+}
+.aboveText{
+    position: relative;
+    left: 0.1rem;
+    font-size: 0.8rem;
+}
+.bottomText{
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+.rightBar2{
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigImg{
+    background-image: url("https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg");
+    width: 20rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1rem;
+}
+.link{margin: 1rem;}
+.detialBox{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+.ingred{
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.measure{
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.ingred span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.measure span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem;
+}

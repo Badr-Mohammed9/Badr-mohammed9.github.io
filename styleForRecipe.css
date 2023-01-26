@@ -1,0 +1,199 @@
+.leftBar{
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    position: relative;
+    box-shadow: 10px 0 5px -2px #888;
+    z-index: 2;
+}
+.rightBar{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+/* .rightBar::before{
+    content: '';
+    position: absolute;
+    left: -17.5em;
+    top: 60%;
+    transform: translateY(-50%) rotate(20deg);
+    width: 47%;
+    
+    background-color: white;
+    height: 162%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+} */
+.ingrText{
+    position: absolute;
+    font-weight: bold;
+    font-size: 165%;
+    top: 2em;
+    left: 0.5em;
+}
+.filter{
+    position: absolute;
+    top: 8em;
+    left: 1em;
+
+}
+.catgorys{
+    display: flex;
+}
+.cBoxA,.cBoxB {
+    display: flex;
+    flex-direction: column;
+}
+.catgorys a{
+    text-decoration: none;
+    padding: 0.3em;
+    margin: 0.5em;
+    /* border: 1px solid red; */
+    color: black;
+    font-weight: bold;
+}
+.catgorys a:hover{
+    color: greenyellow;
+}
+.serchBar{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 12em;
+    border-bottom-left-radius: 12em;
+
+}
+#searchBox{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 3px solid greenyellow;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 30px;
+    
+}
+#serBtn{
+    width: 35px;
+    height: 37px;
+    font-size: 1.2rem;
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    transition: all 0.4s linear;
+}
+.listItems{
+    height: 90%;
+    width: 80%;
+    background-color: greenyellow;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    border-radius: 3rem;
+    padding: 10px;
+    position: relative;
+}
+.box{
+    width: 28%;
+    height: 15.5rem;
+    background-color: white;
+    flex-basis: 28%;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1em;
+    position: relative;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+
+}
+.imgFood{
+    width: 100%;
+    height: 70%;
+    /* background-image: url('https://www.themealdb.com/images/media/meals/1529444830.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foodName{
+    font-size: 0.7rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0.4rem;
+    top: 11rem;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+}
+.foodBtn{
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 2.2rem;
+    width: 5.5rem;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    
+}
+.foodBtn:hover{
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pop{
+    width: 40%;
+    height: 60%;
+    background-color: greenyellow;
+    left: 20rem;
+
+    
+}
+#getRecp{
+    bottom: 2rem;
+    left: 12rem;
+    font-size: 1rem;
+    text-decoration: none;
+    
+}
+.foodBtn2{
+    background-color: aqua;
+    bottom: 0.2rem;
+    left: 2.2rem;
+    width: 5.57rem;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.closeBtn{
+    color: red;
+    font-size: 2rem;
+    position: absolute;
+    right: 10px;
+}
+.closeBtn2{
+    color: red;
+    font-size: 2rem;
+    position: absolute;
+    right: 10px;
+}
+.instra{
+    overflow-y: scroll;
+}
+.newpop{
+    width: 20%;
+    height: 15%;
+    background-color: greenyellow;
+    left: 20rem;
+}

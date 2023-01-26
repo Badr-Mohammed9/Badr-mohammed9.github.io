@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recpies</title>
+    <link rel="stylesheet" href="styleForRecipe.css">
+    <link rel="stylesheet" href="styleForProfile.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9385412260.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="content">
+            <div class="nav">
+                <div class="logo">
+                    <h3>Recpies App</h3>
+                    <a href="index.html"><i class="fa-solid fa-seedling"></i></a>
+                </div>
+                <div class="btns">
+                    <a class="about" href="#">about</a>
+                    <a onclick="myRecipesPage()" class="myRecipes" href="#">myRecipes</a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="leftBar">
+                    <div class="ingrText">Find Meals for Your Ingredient!</div>
+                    <div class="filter">
+                        <h4>Filter by catgory:</h4>
+                        <div class="catgorys">
+                            <div class="cBoxA">
+                                
+                            </div>
+                            <div class="cBoxB">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightBar">
+                    <div class="serchBar">
+                        <input id="searchBox" type="text" placeholder="Search..">
+                        <button onclick="searchBtn(true)" id="serBtn" type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="listItems">
+                        <dialog class="pop">
+                            <a class="closeBtn" href="">
+                                <div class="closeDiv"><i class="fa-sharp fa-solid fa-circle-xmark"></i></div>
+                            </a>
+                            <h4 id="popName">name</h4>
+                            <h5>Instructions:</h5>
+                            <div class="instra">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla iure saepe! Ipsum iure numquam officia. Doloremque quia saepe, maxime sed blanditiis quam mollitia ipsam laboriosam iure nam quasi laborum!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusantium quasi, itaque veniam quidem aspernatur debitis commodi excepturi iusto qui corporis pariatur quaerat esse odio ea eum cupiditate deleniti vel.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel nulla ipsa explicabo consequatur eos deleniti odio! Assumenda iure reiciendis deleniti facere praesentium recusandae nulla cupiditate! Possimus odit cum dolorum.
+                            </div>
+                            <a id="getRecp" href="#">
+                                <div class="foodBtn2">Add Recipe</div>
+                            </a>
+                        </dialog>
+                        <dialog class="newpop">
+                            <a class="closeBtn" href="">
+                                <div class="closeDiv"><i class="fa-sharp fa-solid fa-circle-xmark"></i></div>
+                            </a>
+                            <h4 id="buyM">The item has been added successfully!</h4>
+                        </dialog>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="recipe.js" ></script>
+</html>
